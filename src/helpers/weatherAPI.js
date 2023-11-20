@@ -5,7 +5,7 @@ export const searchCities = async (city) => {
   const data = await response.json();
   if (!data.length) {
     window.alert('Nenhuma cidade encontrada');
-    return [''];
+    return [];
   } return data;
 };
 
