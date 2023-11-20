@@ -110,6 +110,7 @@ export function createCityElement(cityInfo) {
 /**
  * Lida com o evento de submit do formulário de busca
  */
+const list = document.getElementById('cities');
 export async function handleSearch(event) {
   event.preventDefault();
   clearChildrenById('cities');
